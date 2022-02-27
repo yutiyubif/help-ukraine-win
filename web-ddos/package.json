@@ -1,0 +1,9 @@
+{
+  "name": "help-ukraine-win",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy --only hosting",
+    "deploy-preview": "firebase hosting:channel:deploy preview"
+  }
+}
